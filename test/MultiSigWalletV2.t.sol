@@ -62,17 +62,4 @@ contract MultiSigWalletV2Test is Test {
     assertEq(proxyWallet.transactions().length, 0);
     
   }
-
-  function test_upgradeAndCall_can_upgrade() public {
-    // 1. assert wallet is initialized and point to correct implementation
-
-    // 2. test proxyWallet's function works
-
-    // 3. upgrade to V2
-
-    // 4. assert wallet is upgraded
-
-    // 5. assert cancel function is added
-  }
-
 }
